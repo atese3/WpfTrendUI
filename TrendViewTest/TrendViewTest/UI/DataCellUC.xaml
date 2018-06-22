@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="TrendViewTest.UI.DataCellUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="40" Width="575">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Label x:Name="lblName" BorderThickness="1" BorderBrush="Black" Width="100" Content="İsim" Foreground="Black" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblMin"  BorderThickness="1" BorderBrush="Black" Width="100" Content="Minimum" Foreground="Black" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblCurrent"  BorderThickness="1" BorderBrush="Black" Width="100" Content="Anlık" Foreground="Black" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblMax"  BorderThickness="1" BorderBrush="Black" Width="100" Content="Maximum" Foreground="Black" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblOrt"  BorderThickness="1" BorderBrush="Black" Width="100" Content="Ortalama" Foreground="Black" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+        </StackPanel>
+
+
+    </Grid>
+</UserControl>
